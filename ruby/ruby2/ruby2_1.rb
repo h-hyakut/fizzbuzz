@@ -10,5 +10,7 @@ def fizzbuzz(num)
     end
 end
 
-(1..100).each { |num| fizzbuzz(num) }
-
+# (1..100).each {|num| fizzbuzz(num) }
+ (1..100).each do |num|
+    fizzbuzz(num)
+ end
